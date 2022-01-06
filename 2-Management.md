@@ -51,6 +51,7 @@ For example, if "sales" was chosen, and the user's department is under "finance"
 ![](https://i.imgur.com/yE1im95.png)
 
 Column with date data has following conditions:
+
 **1. All**
 
 Same as above.
