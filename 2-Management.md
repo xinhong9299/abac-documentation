@@ -29,17 +29,21 @@ Permissions can be set for each roles. Access to application can be turned on an
 ### 1. Column with string data
 Column with string data has following conditions:
 **1. All**
+
 If set, all data will be return without filter.
 	
 **2. Match**
+
 If set, data will be filtered so that it matched with the users' detail.
 For example, if "department" is set to match, when a user is trying to access the application, user's "department" would be checked, the data will be filtered so that only rows with the same department would be returned.
 	
 **3. Value**
+
 If set, data will be filtered based on the selected value.
 For example, if "sales" and "management" were chosen, only rows with "sales" and "management" would be returned.
 	
 **4. Match and ...**
+
 If set, data will be filtered based on users' detail as well as the selected value.
 For example, if "sales" was chosen, and the user's department is under "finance", rows with both "sales" and "finance" would be returned.
 
@@ -48,12 +52,15 @@ For example, if "sales" was chosen, and the user's department is under "finance"
 
 Column with date data has following conditions:
 **1. All**
+
 Same as above.
 
 **2. Match**
+
 Same as above.
 
 **3. Before**
+
 A date can be selected. Data that are **before** the date will be returned. The **day** input can be used to add or minus days starting from the selected day. 
 
 For example, if date chosen is "1 January 2022", and:
@@ -63,25 +70,32 @@ For example, if date chosen is "1 January 2022", and:
 If "Today" is checked, the data will be filtered based on "Today" date, day calculation can still be applied.
 
 **4. After**
+
 Same concept with **before**, but data that are **after** will be filtered.
 
 **5. Between**
+
 Combination of **before** and **after**. Data will be filtered within the set timespan.
 
 ### 3. Column with number data
 **1. All**
+
 Same as above.
 
 **2. Match**
+
 Same as above.
 
 **3. Less than**
+
 Data that are lesser than the input value will be returned.
 
 **4. More than**
+
 Data that are more than the input value will be returned.
 
 **5. Between**
+
 Data that are in between the input value will be returned.
 
 ### Need Request
@@ -102,6 +116,7 @@ List of functions:
 New user can be added by "Assign" an existing employee that are setup on the client database.
 ### Edit
 ![](https://i.imgur.com/gyzMjV0.png)
+
 On the sidebar, "Edit" mode can be turned on to change user's username or role.
 ### More Settings
 1. Access Control
