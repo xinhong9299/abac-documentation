@@ -29,19 +29,19 @@ Permissions can be set for each roles. Access to application can be turned on an
 ### 1. Column with string data
 Column with string data has following conditions:
 **1. All**
-	If set, all data will be return without filter.
+If set, all data will be return without filter.
 	
 **2. Match**
-	If set, data will be filtered so that it matched with the users' detail.
-	For example, if "department" is set to match, when a user is trying to access the application, user's "department" would be checked, the data will be filtered so that only rows with the same department would be returned.
+If set, data will be filtered so that it matched with the users' detail.
+For example, if "department" is set to match, when a user is trying to access the application, user's "department" would be checked, the data will be filtered so that only rows with the same department would be returned.
 	
 **3. Value**
-	If set, data will be filtered based on the selected value.
-	For example, if "sales" and "management" were chosen, only rows with "sales" and "management" would be returned.
+If set, data will be filtered based on the selected value.
+For example, if "sales" and "management" were chosen, only rows with "sales" and "management" would be returned.
 	
 **4. Match and ...**
-	If set, data will be filtered based on users' detail as well as the selected value.
-	For example, if "sales" was chosen, and the user's department is under "finance", rows with both "sales" and "finance" would be returned.
+If set, data will be filtered based on users' detail as well as the selected value.
+For example, if "sales" was chosen, and the user's department is under "finance", rows with both "sales" and "finance" would be returned.
 
 ### 2. Column with date data
 ![](https://i.imgur.com/yE1im95.png)
